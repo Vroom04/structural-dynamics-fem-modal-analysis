@@ -41,7 +41,7 @@ This repository presents an engineering portfolio focusing on **structural dynam
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ADMS/
@@ -72,7 +72,7 @@ ADMS/
 
 ---
 
-## 🛠️ Requirements & Execution
+## Requirements 
 
 * **Software**: MATLAB R2022b or newer.
 * **Toolboxes**: Optimization Toolbox, Signal Processing Toolbox.
