@@ -1,0 +1,27 @@
+# Course materials & reference documents
+docs/
+
+# macOS OS-generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# MATLAB temporary and autosave files
+*.asv
+*.m~
+*.slxc
+*.mex*
+slprj/
+*.log
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
