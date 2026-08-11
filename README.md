@@ -4,9 +4,10 @@ This repository presents an engineering portfolio focusing on **structural dynam
 
 ---
 
-## 📌 Flagship Projects Overview
+## Projects Overview
 
 ### 1. 🏗️ Experimental Modal Analysis - Milan Citywave Canopy
+
 * **Description**: Dynamic characterization and finite element model updating of a 1:70 scaled aeroelastic model of the **Milan Citywave Canopy** roof structure.
 * **Methodology**:
   * 3D Laser Doppler Vibrometry (PSV) velocity measurement over a 202-point spatial grid at the Politecnico di Milano Wind Tunnel (GVPM).
@@ -18,6 +19,7 @@ This repository presents an engineering portfolio focusing on **structural dynam
 ---
 
 ### 2. ⛷️ 2D FEM & Dynamic Moving Load Analysis - Predazzo Olympic Ski Jump Ramp
+
 * **Description**: Complete 2D Euler-Bernoulli beam element modeling and transient dynamic analysis of the **Predazzo Olympic Ski Jump Ramp** for the **Milano-Cortina 2026 Winter Olympic Games**.
 * **Methodology**:
   * Global mass ($M$) and stiffness ($K$) matrix assembly incorporating non-uniform column pillars, lattice bracing, curved arch deck ($R=112\text{m}$), and ground spring boundary condition ($k = 5 \times 10^7\text{ N/m}$).
@@ -29,6 +31,7 @@ This repository presents an engineering portfolio focusing on **structural dynam
 ---
 
 ### 3. 📐 Theoretical Continuous Beam Dynamics & Parameter Identification
+
 * **Description**: Analytical transverse bending dynamics of slender Euler-Bernoulli cantilever beams and non-linear parameter identification.
 * **Methodology**:
   * Analytical PDE solution, boundary matrix determinant roots ($|\det H(\omega)| = 0$), and exact natural frequencies ($f_1 = 4.50\text{ Hz}$ to $f_4 = 154.86\text{ Hz}$).
@@ -75,13 +78,14 @@ ADMS/
 * **Toolboxes**: Optimization Toolbox, Signal Processing Toolbox.
 
 To run any simulation, open MATLAB, navigate to the target module directory, and run the master script:
+
 - **Citywave Canopy Modal Analysis**: `01_Milano_Canopy_Modal_Analysis/main.m`
 - **Olympic Ski Jump FEM & Moving Load**: `02_Olympic_Ski_Jump_FEM_Dynamics/main.m`
 - **Continuous Beam Vibration**: `03_Beam_Vibration_Dynamics/main_beam_dynamics.m`
 
 ---
 
-## 📄 Comprehensive Technical Reports
+## Technical Reports
 
 For full mathematical derivations, complete experimental setup descriptions, extended FE formulations, and comprehensive discussion of numerical results, please refer to the compiled technical PDF reports located in the `reports/` folder:
 
@@ -91,7 +95,7 @@ For full mathematical derivations, complete experimental setup descriptions, ext
 
 ---
 
-## ✍️ Author & Affiliation
+## Author 
 
 * **Author**: Francesco Valerio Persio Pennesi
 * **Institution**: Politecnico di Milano
